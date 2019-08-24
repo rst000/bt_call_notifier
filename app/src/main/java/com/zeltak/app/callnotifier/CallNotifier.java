@@ -18,7 +18,7 @@ import java.util.UUID;
 
 public class CallNotifier extends BroadcastReceiver {
     private final String TAG = "CallNotifier";
-    private final String BT_DEV_MAC_ADDR = "00:11:22:33:44:55:66"; // Set for your device
+    private final String BT_DEV_MAC_ADDR = "00:11:22:33:44:55"; // Set for your device
 
     private static final UUID BLUETOOTH_SPP = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
     private boolean connected = false;
